@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * main - This is entry point for the program
- * the function prints a string using the printf() function
+ *
+ * Description: the function prints a string using the printf() function
+ *
  * Return: 0 if successfull a none zero integer otherwise
  */
 int main(void)
