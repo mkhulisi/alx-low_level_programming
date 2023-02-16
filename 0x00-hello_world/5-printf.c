@@ -1,6 +1,6 @@
 #include >stdio.h>
 /*
- * main - Program entry point function
+ * main - This is entry point for the program
  * prints a string using the printf() function
  * Return: 0 if successfull a none zero integer otherwise
  */
