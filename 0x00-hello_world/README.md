@@ -31,3 +31,9 @@
     - Use the function printf
     - You are not allowed to use the function puts
     - Your program should return 0
+
+*File:* 6-size.c
+*Description:*  a C program that prints the size of various types on the computer it is compiled and run on
+	- You should produce the exact same output as in the example
+	- Warnings are allowed
+	- Your program should return 0
