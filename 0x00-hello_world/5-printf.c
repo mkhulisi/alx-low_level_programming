@@ -1,4 +1,4 @@
-#include >stdio.h>
+#include <stdio.h>
 /*
  * main - This is entry point for the program
  * prints a string using the printf() function
