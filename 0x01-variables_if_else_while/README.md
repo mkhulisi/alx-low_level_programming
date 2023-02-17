@@ -1,4 +1,5 @@
 ***0x01. C - Variables, if, else, while***
+
 *File:* 0-positive_or_negative.c
 *Description:* Test a randomly generated number if its positive, negative or zero
 
@@ -19,3 +20,6 @@
 
 *File:* 7-print_tebahpla.c
 *Description:* print the alphabet letters in lowercase in reverse
+
+*File:* 8-print_base16.c
+*Description:* print hexadecimal numbers using putchar
