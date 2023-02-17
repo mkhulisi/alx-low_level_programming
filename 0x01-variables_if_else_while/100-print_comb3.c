@@ -17,7 +17,7 @@ int main(void)
 
 			if (d1 == 8 && d2 == 9)
 				continue;
-			
+
 			putchar(',');
 			putchar(' ');
 		}
