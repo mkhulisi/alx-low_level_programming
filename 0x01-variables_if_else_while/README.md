@@ -7,3 +7,6 @@
 
 *File:* 3-print alphabets.c
 *Description:* print letters of the alphabet both in upper and lower case using putchar
+
+*File:* 4-print_alphabt.c
+*Description:*  print letters of the alphabet in lowercase except for the q and e letters using putchar
