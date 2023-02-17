@@ -16,3 +16,6 @@
 
 *File:* 6-print_numberz.c
 *Description*: print numbers 0 to 9 using putchar
+
+*File:* 7-print_tebahpla.c
+*Description:* print the alphabet letters in lowercase in reverse
