@@ -7,8 +7,7 @@
 int main(void)
 {
 	int x;
-	int t;
-
+	
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		if (x == 'e' || x == 'q')
