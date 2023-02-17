@@ -8,20 +8,14 @@ int main(void)
 {
 
 	int x;
-	int c = ',';
-	int s = ' ';
 
-	for (x = '0'; x <= '9'; x++)
+	for (x = 0; x <= 9; x++)
 	{
-		if (x == '9')
+		putchar(x + '0');
+		if (x < 9)
 		{
-			putchar(x);
-		}
-		else
-		{
-			putchar(x);
-			putchar(c);
-			putchar(s);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 
