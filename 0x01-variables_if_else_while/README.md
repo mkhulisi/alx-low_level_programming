@@ -13,3 +13,6 @@
 
 *File:* 5-print_numbers.c
 *Description:* print numbers from 0 to 9
+
+*File:* 6-print_numberz.c
+*Description*: print numbers 0 to 9 using putchar
