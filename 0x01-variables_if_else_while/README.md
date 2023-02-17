@@ -23,3 +23,6 @@
 
 *File:* 8-print_base16.c
 *Description:* print hexadecimal numbers using putchar
+
+*File:* 9-print_comb.c
+*Description:* print comma seperated list of the 0-9 numbers using loop and putchar
