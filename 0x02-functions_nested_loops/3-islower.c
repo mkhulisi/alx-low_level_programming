@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include "main.h"
-#include <ctype.h>
-
 /**
   * _islower - check if a character is lower or uppercas
   *
