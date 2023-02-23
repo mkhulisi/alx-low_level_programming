@@ -4,23 +4,13 @@
 * @c: alphaetical character to check
 * Return: 1 if upper 0 otherwise
 */
+
 int _isupper(int c)
 {
-
-	if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
+	if (c >= 65 && c <= 90)
 	{
-		if (c >= 'a' && c <= 'z')
-		{
-			return (0);
-		}
-		else
-		{
-			return (1);
-		}
+	return (1);
 	}
-
 	else
-	{
-
-	}
+	return (0);
 }
