@@ -1,6 +1,5 @@
-#include "holberton.h"
-/**
- * print_triangle - Print a triangle, followed by a new line.
+#include "main.h"
+/** print_triangle - Print a triangle, followed by a new line.
  * @size: the number for parameter
  * Return: Always 0.
  */
