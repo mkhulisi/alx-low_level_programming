@@ -1,1 +1,1 @@
-void postitive_or_negative(n);
+void postitive_or_negative(int n);
