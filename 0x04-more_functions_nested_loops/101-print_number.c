@@ -6,15 +6,15 @@
  */
 void print_number(int n)
 {
-	if (var < 0) 
+	if (n < 0) 
     	{
-		 putchar('-');
-		 var = var * -1;
+		 _putchar('-');
+		 n = n * -1;
 	}
-	if (var == 0)
-	       	putchar('0');
-	if (var/10)
-		my_putchar(var/10);
+	if (n == 0)
+	       	_putchar('0');
+	if (n / 10)
+		print_number(n / 10);
 
-	putchar(var%10 + '0');
+	_putchar(n % 10 + '0');
 }
