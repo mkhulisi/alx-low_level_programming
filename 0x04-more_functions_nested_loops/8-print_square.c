@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_square - print square using # character
  * @size: the number that determinnes the size of the square
