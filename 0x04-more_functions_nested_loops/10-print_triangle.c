@@ -1,8 +1,9 @@
 #include "main.h"
-/** print_triangle - Print a triangle, followed by a new line.
- * @size: the number for parameter
- * Return: Always 0.
- */
+/**
+*print_triangle - Print a triangle, followed by a new line.
+*@size: the number for parameter
+*Return: Always 0.
+*/
 void print_triangle(int size)
 {
 	int x, y = 0;
