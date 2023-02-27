@@ -8,11 +8,9 @@
 void print_rev(char *str)
 {
 
-	int j;
 	int len;
 	int i;
 
-	j = 0;
 	len = 0;
 	i = 0;
 
