@@ -20,7 +20,7 @@ void rev_string(char *s)
 		len++;
 		i++;
 	}
-	while (len >= 0)
+	while (len > 0)
 	{
 		printf("%c", s[len]);
 		len--;
