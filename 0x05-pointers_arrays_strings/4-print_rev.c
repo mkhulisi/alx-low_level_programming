@@ -20,12 +20,10 @@ void print_rev(char *str)
 		len++;
 		i++;
 	}
-	while (len > 0)
+	while (len >= 0)
 	{
 		printf("%c", str[len]);
 		len--;
 	}
-
-	printf("\n");
 
 }
