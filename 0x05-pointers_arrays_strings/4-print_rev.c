@@ -18,6 +18,7 @@ void print_rev(char *str)
 	{
 		str++;
 		i++;
+		len++
 	}
 	while (len >= 0)
 	{
