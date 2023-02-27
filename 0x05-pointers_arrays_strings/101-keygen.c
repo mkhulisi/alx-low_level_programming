@@ -14,4 +14,6 @@ int main(void)
 	{
 		printf("%d%c\n", rand(), 60 + x);
 	}
+
+	return (0);
 }
