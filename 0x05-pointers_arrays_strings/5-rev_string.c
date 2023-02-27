@@ -24,7 +24,7 @@ void rev_string(char *s)
 	{
 		if (len == 0)
 		{
-			printf("%c\n", s[len]);
+			printf("\n");
 		}
 		else
 		{
