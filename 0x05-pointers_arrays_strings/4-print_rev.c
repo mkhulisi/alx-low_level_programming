@@ -10,7 +10,6 @@ void print_rev(char *str)
 
 	int len;
 	int i;
-	char out_put[];
 
 	len = 0;
 	i = 0;
