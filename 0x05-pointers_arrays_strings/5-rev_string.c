@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 /**
 *rev_string - prints a string in reverse followed by new line
-*@str: the pointer to string to print
+*@s: the pointer to string to print
 *Return: void, nothing
 */
 void rev_string(char *s)
@@ -26,4 +25,6 @@ void rev_string(char *s)
 		len--;
 
 	}
+
+	printf("\n");
 }
