@@ -22,17 +22,7 @@ void rev_string(char *s)
 	}
 	while (len >= 0)
 	{
-		if (len == 0)
-		{
-			printf("\n");
-		}
-		else
-		{
+		printf("%c", s[len]);
 
-			printf("%c", s[len]);
-		}
-
-		len--;
 	}
-
 }
