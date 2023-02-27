@@ -10,7 +10,7 @@ void print_rev(char *str)
 
 	int c;
 
-	for (c = 0; s[c] != 0; c++)
+	for (c = 0; str[c] != 0; c++)
 	{
 	}
 	for (c = c - 1; c >= 0; c--)
