@@ -26,7 +26,7 @@ void rev_string(char *s)
 		len--;
 
 	}
-	*s = '\0';
+	*s = NULL;
 
 	printf("\n");
 }
