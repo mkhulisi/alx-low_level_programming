@@ -23,6 +23,7 @@ void rev_string(char *s)
 	while (len >= 0)
 	{
 		printf("%c", s[len]);
+		len--;
 
 	}
 }
