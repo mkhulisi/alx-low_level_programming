@@ -18,4 +18,6 @@ void _puts(char *str)
 		j++;
 	}
 
+	printf("\n");
+
 }
