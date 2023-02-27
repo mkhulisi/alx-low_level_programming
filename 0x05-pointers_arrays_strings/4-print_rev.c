@@ -22,7 +22,16 @@ void print_rev(char *str)
 	}
 	while (len >= 0)
 	{
-		printf("%c", str[len]);
+		if (len == 0)
+		{
+			printf("%c\n", str[len]);
+		}
+		else
+		{
+
+			printf("%c", str[len]);
+		}
+
 		len--;
 	}
 
