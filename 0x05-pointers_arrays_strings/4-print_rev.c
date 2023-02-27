@@ -8,31 +8,14 @@
 void print_rev(char *str)
 {
 
+	int c;
 
-	int len;
-	int i;
-
-	len = 0;
-	i = 0;
-
-	while (str[i] != '\0')
+	for (c = 0; s[c] != 0; c++)
 	{
-		len++;
-		i++;
 	}
-	while (len >= 0)
+	for (c = c - 1; c >= 0; c--)
 	{
-		if (len == 0)
-		{
-			printf("%c\n", str[len]);
-		}
-		else
-		{
-
-			printf("%c", str[len]);
-		}
-
-		len--;
+		_putchar(str[c]);
 	}
-
+	_putchar('\n');
 }
