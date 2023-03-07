@@ -12,7 +12,7 @@ void print_chessboard(char (*a)[8])
 	for (x = 0; x < 8; x++)
 	{
 		for (n = 0; n < 8; n++)
-			pintf("%c",a[x][n]);
+			pritf("%c",a[x][n]);
 		printf("\n");
 	}
 }
