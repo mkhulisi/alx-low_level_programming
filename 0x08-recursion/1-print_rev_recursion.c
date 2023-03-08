@@ -6,7 +6,7 @@
  * Return: void, nothing
  */
 
-void _print_rev_recursion(*s)
+void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 	{
@@ -15,6 +15,6 @@ void _print_rev_recursion(*s)
 	else
 	{
 		_print_rev_recursion(s + 1);
-		ptintf("%s", s);
+		ptintf("%s", *s);
 	}
 }
