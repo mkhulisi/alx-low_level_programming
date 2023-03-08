@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _puts_recursion - function that prints a string, followed by a new line
@@ -13,12 +14,12 @@ void _puts_recursion(char *s)
 
 	if (s[x] == '\0')
 	{
-		_putchar('\n');
+		printf("\n");
 		return;
 	}
 	else
 	{
-		_putchar(s[x]);
+		printf("%c", s[x]);
 		_puts_recursion(s + 1);
 	}
 }
