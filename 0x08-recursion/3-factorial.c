@@ -2,7 +2,7 @@
 
 /**
  * factorial - gets factorial of a number
- * @n: integer number 
+ * @n: integer number
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
