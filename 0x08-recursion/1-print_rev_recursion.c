@@ -8,20 +8,10 @@
 
 void _print_rev_recursion(char *s)
 {
-	int x;
-
-	x = 0;
-
-	while (s[x] != '\0')
+	if (*s == '\0)
 	{
-		x++;
+		return;
 	}
-	while (x >= 0)
-	{
-		 printf("%c", s[x]);
-		 x--;
-		 _print_rev_recursion(s - 1);
-	}
-
-	printf("\n");
+	_print_rev_recursion(s - 1);
+	_putchar(*s);
 }
