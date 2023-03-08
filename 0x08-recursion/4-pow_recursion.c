@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _pow_recursion - raises x to the power of y
- * @x: Number Integer
+ * @x: integer numbere to raise
  * @y: Power to raise to
- * Return: On success 
+ * Return: On success
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _pow_recursion(int x, int y)
