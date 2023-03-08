@@ -15,6 +15,6 @@ void _print_rev_recursion(*s)
 	else
 	{
 		_print_rev_recursion(s + 1);
-		ptintf("%s", *s);
+		ptintf("%s", s);
 	}
 }
