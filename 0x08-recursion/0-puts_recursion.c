@@ -8,6 +8,7 @@
 void _puts_recursion(char *s)
 {
 	int x;
+
 	x = 0;
 
 	if (s[x] == '\0')
