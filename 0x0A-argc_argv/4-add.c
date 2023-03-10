@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - program entry point, adds interger args
  * @argc: contains cli arguments count
@@ -13,19 +14,27 @@ int main(int argc, char *argv[])
 
 	sum = 0;
 	x = 1;
-
-	while (x < argc)
+	
+	if(argc == 1)
 	{
-		if (!atoi(argv[x]))
+		printf("0\n");
+		return (0);
+	}
+	else
+	{
+		while (x < argc)
 		{
-			printf("Error\n");
-			return (1);
+			if (!atoi(argv[x]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+			else
+			{
+				sum = atoi(argv[x]) + sum;
+			}
+			x++;
 		}
-		else
-		{
-			sum = atoi(argv[x]) + sum;
-		}
-		x++;
 	}
 	printf("%d\n", sum);
 	return (0);
