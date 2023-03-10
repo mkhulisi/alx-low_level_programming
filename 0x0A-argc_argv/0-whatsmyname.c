@@ -7,14 +7,6 @@
  */
 int main(int argc, char *argv[])
 {
-	int x;
-	
-	x =0;
-	
-	while (x < argc)
-	{
-		printf("%s\n", argv[0]);
-		x++;
-	}
+	printf("%s\n", argv[0]);
 	return (0);
 }
