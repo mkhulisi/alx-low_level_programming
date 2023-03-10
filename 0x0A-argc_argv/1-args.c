@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main -entry oint, prints number of arguments
  * @argc: number of arguments
