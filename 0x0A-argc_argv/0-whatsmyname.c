@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h">
 /**
  * main - program entry point, prints program file name
  * @argc: contains cli arguments count
