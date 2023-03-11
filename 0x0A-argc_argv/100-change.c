@@ -8,25 +8,25 @@
  */
 int main(int argc, char *argv[])
 {
-	int cents;
-	
-	if(argc != 2)
+	int amount, coins = 0;
+	if (argc != 2)
 	{
 		printf("Error\n");
-		return (1);
+		return 1;
 	}
-	else
+	
+	amount = atoi(argv[1]);
+	if (amount <= 0)
 	{
-		cents = atoi(argv[1]);
-		
-		if (cents % 10 == 0 && 10 == cents)
-		{
-			printf("1\n");
-		}
-		else
-		{
-			printf("%d\n", cents);
-		}
+		printf("0\n");
+		return 1;
 	}
-	return (0);
+
+	coins += amount / 10;
+	amount %= 10;
+	coins += amount / 5;
+	amount %= 5;
+	coins += amount / 1;
+	printf("%d\n", coins);
+	return 0;
 }
